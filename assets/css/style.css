@@ -7,5 +7,41 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     padding: .625rem;
+    min-width: 400px;
 }
 
+input {
+    width: 100%;
+    padding: .625rem;
+    border-radius: .1875rem;
+    border: 1px solid #5f9341;
+}
+
+button {
+    background-color: #5f9341;
+    border-radius: .1875rem;
+    border: none;
+    color: #ffff;
+    text-transform: uppercase;
+    padding: .625rem 1.25rem;
+    font-weight: bold;
+    margin-top: .25rem;
+    margin-bottom: .75rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(.96);
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    line-height: 1.4;
+}
+
+li a {
+    color: #5f9341;
+}
