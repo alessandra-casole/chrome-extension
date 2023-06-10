@@ -20,7 +20,7 @@ input {
 button {
     background-color: #5f9341;
     border-radius: .1875rem;
-    border: none;
+    border: 1px solid #5f9341;
     color: #ffff;
     text-transform: uppercase;
     padding: .625rem 1.25rem;
@@ -32,6 +32,11 @@ button {
 
 button:hover {
     transform: scale(.96);
+}
+
+.delete-btn {
+    background-color: #ffff;
+    color: #5f9341;
 }
 
 ul {
